@@ -1,0 +1,111 @@
+[
+    {
+        "id": "cms",
+        "displayName": "Case Management System",
+        "summary": "cms summary",
+        "sourceIsPrivate": true,
+        "goals": "Fun and practice",
+        "features": [
+            "generate treatment schedules",
+            "full instant search",
+            "query outstanding reviews"
+        ],
+        "screenShots": [
+            {"name": "cases.png", "caption": "List of cases"},
+            {"name": "cases-by-service-coordinator.png", "caption": "List of cases by service-coordinators"},
+            {"name": "edit-case.png", "caption": "Edit case form"}
+        ]
+    },
+    {
+        "id": "cell-dog-evolution",
+        "displayName": "Cell Dog Evolution",
+        "summary": "I created this simulator to demonstrate the workings of evolution.",
+        "goals": "Fun, practice and demonstrate the workings of evolution",
+        "features": [
+            "Displays 'cell-dogs' that were created based on a 'DNA' object.",
+            "Mutates DNA objects randomly.",
+            "Birth new 'cell-dogs' based on 'parent-dog'.",
+            "Change background color of dog-house.",
+            "Random kills cell-dogs with a bias towards those who least match the background of the dog-house.",
+            "Displays mutation count since simulator started.",
+            "Displays a magnified version of the most recent mutation."
+        ],
+        "screenShots": [
+            {"name": "cde1.png", "caption": "cde1"},
+            {"name": "cde2.png", "caption": "cde2" }
+        ],
+        "videos": [
+            {"name": "cde4.mp4", "caption": "In progress"}
+        ],
+        "challenges": [
+            "Balancing births and deaths",
+            "Choosing mutation mix that gives suitable progress in a timely manner"
+        ]
+    },
+    {
+        "id": "tasks-organizer",
+        "displayName": "Tasks Organizer",
+        "summary": "to summary",
+        "sourceIsPrivate": true,
+        "goals": "Fun and practice",
+        "features": [
+            "Tracks to list",
+            "Display current status of personal goals",
+            "Keeps common links used at work",
+            "Analyze and displays performance trends of selected tasks",
+            "Tracks quick notes as name/value pairs",
+            "Tracks documentation style notes"
+        ],
+        "screenShots": [
+            {"name": "to1.png", "caption": ""},
+            {"name": "to1.png", "caption": ""},
+            {"name": "to3.png", "caption": ""},
+            {"name": "to4.png", "caption": ""}
+        ]
+    },
+    {
+        "id": "tetris",
+        "displayName": "Tetris",
+        "summary": "Tetris desc",
+        "goals": "Fun and practice",
+        "features": [
+            "Generates shapes randomly.",
+            "Navigates active shape based on user input. Move left, move right and drop.",
+            "Rotates active shape based on user input.",
+            "Accumulates score for completed rows. Gives extra points for multiple completed rows.",
+            "Pause and restart game."
+        ],
+        "screenShots": [
+            {"name": "tetris1.png", "caption": ""},
+            {"name": "tetris2.png", "caption": ""},
+            {"name": "tetris3.png", "caption": ""},
+            {"name": "tetris4.png", "caption": ""}
+        ],
+        "videos": [
+            {"name": "tetris5.mp4", "caption": "Snippet of running game game"}
+        ]
+    },
+    {
+        "id": "game-of-life",
+        "displayName": "Game of Life",
+        "summary": "This is my implementation of Conway's game of life. I did this project because I think it's very fascinating that a few simple rules could result in such complex effects.",
+        "goals": "Fun and practice",
+        "features": [
+            "Pause and restart",
+            "Run single iteration",
+            "Preset patterns",
+            "Invert pattern on board"
+        ],
+        "screenShots": [
+            {"name": "life1.png", "caption": ""},
+            {"name": "life2.png", "caption": ""},
+            {"name": "life3.png", "caption": ""}
+        ],
+        "videos": [
+            {"name": "life4.mp4", "caption": "Preset pattern in action"},
+            {"name": "life5.mp4", "caption": "Creating custom pattern with invert"}
+        ],
+        "challenges": [
+        ]
+    }
+]

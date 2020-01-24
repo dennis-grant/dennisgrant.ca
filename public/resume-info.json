@@ -1,0 +1,76 @@
+{
+  "contact": {
+    "firstName": "DENNIS",
+    "middleInitial": "K",
+    "lastName": "GRANT",
+    "address": "Milton, Ontario",
+    "phone": "Mobile: 416-877-6420",
+    "email": "dennis.grant@gmail.com",
+    "githubUser": "dennis-grant",
+    "website": "www.dennisgrant.ca"
+  },
+  "professional": {
+    "skills": {
+      "Web": ["React", "Angular2", "jQuery", "Nodejs", "Ionic", "HTML5", "JavaScript (ES6)", "CSS", "Webpack"],
+      "Other": ["Java", "MySQL", "Oracle", "SQL Server", "Apache", "Tomcat", "IIS", "Nginx", "Docker"]
+    },
+    "workExperiences": [
+      {
+        "company": "Opentext Corporation",
+        "position": "Software Developer",
+        "start": "2009",
+        "end": "Present",
+        "highlights": [
+          "Created a parser to upgrade Swagger 1.2 docs to Swagger 2.0, while dealing with irregular input data.",
+          "Customized Swagger-ui 2.0 to implement internal preferences. Swagger-ui was implemented using React.",
+          "Created a mobile front-end to Content Server. Implemented using Angular connecting to Content Server RESTAPI.",
+          "Created a prototype for a drag-n-drop/wysiwyg page creator thats uses active, configurable, widgets.",
+          "Created new widgets and fix bugs in existing widgets for SmartUI, Content Server new front-end."
+        ]
+      },
+      {
+        "company": "Rogers Media",
+        "position": "Software Developer",
+        "start": "2005",
+        "end": "2007",
+        "highlights": [
+          "Developed and maintained over 70 websites for Rogers’s radio stations, television stations and magazines. All these sites were in TeamSite.",
+          "Integrated forums (Jive3, Jive4) with user-management applications for www.fishontario.com, www.huntontario.com, www.sportsnet.ca, www.canadianbusiness.com, etc.",
+          "Updated the interface for the integration/merging of www.moneysense.ca, www.profitguide.com and www.canadianbusiness.com"
+        ]
+      }
+    ],
+    "softwareProjects": [
+      {
+        "name": "Case Management System",
+        "highlights": [
+          "Created for health care provider, Lees Development Services, based in New Jersey.",
+          "Generates review schedules for patients requiring regular treatments with various practitioners.",
+          "Features a custom-built, hierarchical, keyword indexer that allows for instance searching by users."
+        ]
+      },
+      {
+        "name": "Tasks Organizer",
+        "highlights": [
+          "Tasks-tracker/work-support utility for individuals.",
+          "Displays due tasks for active projects broken down by day. Displays progress, due-date and other info.",
+          "Uses archived and completed tasks to analyze and display performance trends.",
+          "Provides access to user created documents, navigated through a tree structured menu."
+        ]
+      },
+      {
+        "name": "Cell Dog Evolution",
+        "highlights": [
+          "Simulates the workings of evolution in a simplified, interactive manner.",
+          "Demonstrates the effects of a sequence of random mutations to DNA in a simulated 'life' environment.",
+          "Graphically displays the effects of all changes: mutations, deaths, births."
+        ]
+      }
+    ],
+    "education": [
+      "University of the West Indies, B.Sc. Computer Science (Hons.)",
+      "Microsoft Certified Professional - Designing and Implementing Desktop Solutions",
+      "SUN Certified Programmer"
+    ]
+  }
+}
