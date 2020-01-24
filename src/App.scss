@@ -1,0 +1,46 @@
+.main-display,
+.main-display > .details-display {
+  margin: 0;
+  padding: 0;
+}
+
+.main-display > .details-display {
+  width: 100vw;
+  padding-top: 10vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  padding-left: 15vw;
+}
+
+.about,
+.projects,
+.project-details {
+  margin-top: 50px;
+  margin-left: 15vw;
+  width: 70vw;
+}
+
+@media screen and (max-device-width: 850px) {
+  .main-display > .details-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    padding-left: 10%;
+  }
+    
+  .about,
+  .projects,
+  .project-details {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 80%;
+  }     
+}

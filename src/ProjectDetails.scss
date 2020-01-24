@@ -1,0 +1,45 @@
+.project-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+}
+
+.project-details {
+  > header {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  > section {
+    margin-top: 25px;
+  }
+
+  > section {
+    > .summary,
+    > .source,
+    > .features {
+      margin-bottom: 15px;
+    }
+
+    > .source {
+      font-size: 12px;
+      color: #64B1F5;
+    }
+
+    > .features {
+      > header {
+        font-size: 22px;
+        color: #64B1F5;
+      }
+
+      > ul {
+        list-style-position: inside;
+      }
+    }
+
+    > .description {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+}

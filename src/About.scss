@@ -1,0 +1,13 @@
+.about > header {
+  font-size: 60px;
+}
+
+.about > section {
+  width: 50%;
+}
+
+@media screen and (max-device-width: 800px) {
+  .about > section {
+    width: 90%;
+  }
+}

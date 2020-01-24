@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  min-height: 10vh;
+  background-color: #444444;
+  color: #ffffff;
+  list-style: none;
+  margin: 0px;
+  border-bottom: solid 4px #64B1F5;
+}
+
+.nav > .link {
+  color: #ffffff;
+  margin-right: 20px;
+}
