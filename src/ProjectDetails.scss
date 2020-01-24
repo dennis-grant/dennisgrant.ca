@@ -21,6 +21,16 @@
       margin-bottom: 15px;
     }
 
+    > .summary {
+      p {
+        margin-top: 5px;
+      }
+
+      p:first-child {
+        margin-top: 0;
+      }
+    }
+
     > .source {
       font-size: 12px;
       color: #64B1F5;

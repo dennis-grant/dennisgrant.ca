@@ -78,7 +78,14 @@ class ProjectDetails extends Component {
       <div className="project-details">
         <header>{project.displayName}</header>
         <section>
-          <div className="summary">{project.summary}</div>
+          <div className="summary">
+            {Array.isArray(project.summary) === false
+              ? project.summary
+              : project.summary.map((summaryLine) => (
+                  <p>{summaryLine}</p>
+                ))
+            }
+          </div>
 
           <div className="source">
             Source:&nbsp;&nbsp;
