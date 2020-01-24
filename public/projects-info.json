@@ -2,31 +2,42 @@
     {
         "id": "cms",
         "displayName": "Case Management System",
-        "summary": "cms summary",
+        "summary": [
+            "Manages patient and treatment plans for Health Care Provider. This system covers thousands of patients and hundreds of practitioners.",
+            "It turned out to a huge improvement our the system that was used before. The instant search feature is extremely useful, saving lots of time looking up records. And outstanding-review queries enable better patient care."
+        ],
         "sourceIsPrivate": true,
         "goals": "Fun and practice",
         "features": [
-            "generate treatment schedules",
-            "full instant search",
-            "query outstanding reviews"
+            "CRUD operations for patients, care-givers, practitioners, treatment plans, daycare.",
+            "Generates review schedules for patients requiring regular treatments with various practitioners.",
+            "Custom-built, hierarchical, keyword indexer that allows for instance searching by users.",
+            "Queries: outstanding reviews, cases by status, cases by county"
         ],
         "screenShots": [
             {"name": "cases.png", "caption": "List of cases"},
-            {"name": "cases-by-service-coordinator.png", "caption": "List of cases by service-coordinators"},
+            {"name": "cases-by-status.png", "caption": "List of cases by status"},
             {"name": "edit-case.png", "caption": "Edit case form"}
+        ],
+        "videos": [
+            {"name": "instant-search-and-edit.mp4", "caption": "Instant search and edit"}
+        ],
+        "challenges": [
+            "Import unstructured, dirty data from old system into a new normalized structure.",
+            "Designing an effecient, flexible indexer"
         ]
     },
     {
         "id": "cell-dog-evolution",
         "displayName": "Cell Dog Evolution",
-        "summary": "I created this simulator to demonstrate the workings of evolution.",
+        "summary": "I created this simulator to demonstrate how evolution works.",
         "goals": "Fun, practice and demonstrate the workings of evolution",
         "features": [
             "Displays 'cell-dogs' that were created based on a 'DNA' object.",
             "Mutates DNA objects randomly.",
-            "Birth new 'cell-dogs' based on 'parent-dog'.",
-            "Change background color of dog-house.",
-            "Random kills cell-dogs with a bias towards those who least match the background of the dog-house.",
+            "Births new 'cell-dogs' based on 'parent-dog'.",
+            "Allows users to change background color of dog-house.",
+            "Randomly kills cell-dogs with a bias towards those who least match the background of the dog-house.",
             "Displays mutation count since simulator started.",
             "Displays a magnified version of the most recent mutation."
         ],
@@ -38,35 +49,42 @@
             {"name": "cde4.mp4", "caption": "In progress"}
         ],
         "challenges": [
-            "Balancing births and deaths",
-            "Choosing mutation mix that gives suitable progress in a timely manner"
+            "Balancing births and deaths.",
+            "Choosing mutation mix that results in suitable evolutionary progress.",
+            "Comparing cell-dogs with different patterns and colors, to determine which one is closer to background-color."
         ]
     },
     {
         "id": "tasks-organizer",
         "displayName": "Tasks Organizer",
-        "summary": "to summary",
+        "summary": [
+            "Tasks organizer was created to improved my productivity. It provides one central location for me to stores all relevant information to help in my day to day tasks.",
+            "Before creating this system, I was stuck perpetually rewriting todo lists, using file system to manage documents, using text files to store notes, etc. This system has allowed me to put more focus on completing my tasks and less on managing them."
+        ],
         "sourceIsPrivate": true,
         "goals": "Fun and practice",
         "features": [
-            "Tracks to list",
-            "Display current status of personal goals",
-            "Keeps common links used at work",
-            "Analyze and displays performance trends of selected tasks",
-            "Tracks quick notes as name/value pairs",
-            "Tracks documentation style notes"
+            "Manages todo list.",
+            "Displays current status of personal goals.",
+            "Manages common links used at work.",
+            "Analyzes and displays performance trends of selected tasks.",
+            "Manages quick notes as name/value pairs.",
+            "Manages documents."
         ],
         "screenShots": [
-            {"name": "to1.png", "caption": ""},
-            {"name": "to1.png", "caption": ""},
-            {"name": "to3.png", "caption": ""},
-            {"name": "to4.png", "caption": ""}
+            {"name": "goals.png", "caption": "Goals"},
+            {"name": "todo.png", "caption": "Todo"},
+            {"name": "work-links.png", "caption": "Work links"},
+            {"name": "projects.png", "caption": "Projects"},
+            {"name": "performance-trends.png", "caption": "Projects"},
+            {"name": "notes.png", "caption": "Notes"},
+            {"name": "documentation.png", "caption": "Documents"}
         ]
     },
     {
         "id": "tetris",
         "displayName": "Tetris",
-        "summary": "Tetris desc",
+        "summary": "This is my implementation of the popular game Tetris.",
         "goals": "Fun and practice",
         "features": [
             "Generates shapes randomly.",
@@ -88,13 +106,20 @@
     {
         "id": "game-of-life",
         "displayName": "Game of Life",
-        "summary": "This is my implementation of Conway's game of life. I did this project because I think it's very fascinating that a few simple rules could result in such complex effects.",
+        "summary": [
+            "Conway's Game of Life is a cellular automaton that takes an initial pattern and evolves it using 3 simple rules:",
+            " 1) Live cell with 2 or 3 neighbors survives",
+            " 2) Dead cell with three live neighbors becomes a live cell",
+            " 3) All other live cells die in the next generation. Similarly, all other dead cells stay dead.",
+            "This is my implementation. I did this project because I think it's very fascinating that a few simple rules could result in such complex effects."
+        ],
         "goals": "Fun and practice",
         "features": [
-            "Pause and restart",
-            "Run single iteration",
-            "Preset patterns",
-            "Invert pattern on board"
+            "Pause and restart evolution.",
+            "Runs single step in evolution.",
+            "Provides preset patterns.",
+            "Supports user created patterns.",
+            "Inverts current pattern on board."
         ],
         "screenShots": [
             {"name": "life1.png", "caption": ""},
@@ -106,6 +131,7 @@
             {"name": "life5.mp4", "caption": "Creating custom pattern with invert"}
         ],
         "challenges": [
+            "Maximizing performance speed."
         ]
     }
 ]
