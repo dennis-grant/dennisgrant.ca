@@ -81,8 +81,8 @@ class ProjectDetails extends Component {
           <div className="summary">
             {Array.isArray(project.summary) === false
               ? project.summary
-              : project.summary.map((summaryLine) => (
-                  <p>{summaryLine}</p>
+              : project.summary.map((summaryLine, index) => (
+                  <p key={index}>{summaryLine}</p>
                 ))
             }
           </div>
