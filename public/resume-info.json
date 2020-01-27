@@ -24,8 +24,8 @@
           "Created a parser to upgrade Swagger 1.2 docs to Swagger 2.0, while dealing with irregular input data.",
           "Customized Swagger-ui 2.0 to implement internal preferences. Swagger-ui was implemented using React.",
           "Created a mobile front-end to Content Server. Implemented using Angular connecting to Content Server RESTAPI.",
-          "Created a prototype for a drag-n-drop/wysiwyg page creator thats uses active, configurable, widgets.",
-          "Created new widgets and fix bugs in existing widgets for SmartUI, Content Server new front-end."
+          "Created a prototype for a drag-n-drop/wysiwyg page creator thats uses active, configurable widgets.",
+          "Created new widgets and fix bugs in existing widgets for SmartUI, Content Server's new front-end."
         ]
       },
       {
