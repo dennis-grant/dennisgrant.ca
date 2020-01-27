@@ -12,7 +12,6 @@
 /build
 
 # misc
-*.mp4
 /src/logo.svg
 /src/serviceWorker.js
 /src/setupTests.js
