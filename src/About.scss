@@ -1,9 +1,25 @@
-.about > header {
-  font-size: 60px;
-}
+.about {
+  > header {
+    font-size: 45px;
+  }
 
-.about > section {
-  width: 50%;
+  > section {
+    width: 50%;
+  }
+
+  > section {
+    > p {
+      margin-top: 10px;
+    }
+
+    > p:first-child {
+      margin-top: 0;
+    }
+
+    > p > a {
+      color: #64B1F5;
+    }
+  }
 }
 
 @media screen and (max-device-width: 800px) {
