@@ -4,7 +4,7 @@
         "displayName": "Case Management System",
         "summary": [
             "Manages patient and treatment plans for Health Care Provider. This system covers thousands of patients and hundreds of practitioners.",
-            "It turned out to a huge improvement our the system that was used before. The instant search feature is extremely useful, saving lots of time looking up records. And outstanding-review queries enable better patient care."
+            "It turned out to a huge improvement over the system that was used before. The instant search feature is extremely useful, saving lots of time looking up records. Another useful feature is 'outstanding-review queries'. This feature enables better patient care by drawing attention to overdue reviews."
         ],
         "sourceIsPrivate": true,
         "goals": "Fun and practice",
