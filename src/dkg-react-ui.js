@@ -267,6 +267,25 @@ const updateTreeBranch = (treeData, path, updateInfo) => {
 /*========================= Grid =========================*/
 
 export class Grid extends Component {
+  constructor(props) {
+    super(props);
+    this.highlightRow = this.highlightRow.bind(this);
+    this.unhighlightRow = this.unhighlightRow.bind(this);
+    this.selectRow = this.selectRow.bind(this);
+  }
+
+  highlightRow(rowIndex) {
+    this.state.highlightedRow = 1;
+  }
+
+  unhighlightRow() {
+    this.state.highlightedRow = -1;
+  }
+
+  selectRow() {
+
+  }
+
   render() {
     let gridData = this.props.gridData;
     let hasHeaderClassName = gridData.hasHeader ? "has-header" : "";
@@ -276,9 +295,25 @@ export class Grid extends Component {
         {
           gridData.rows.map(
             (gridRowData, rowIndex) => {
-              let evenOddClassName = (rowIndex % 2) === 0 ? "row-even" : "row-odd";
+              let evenOddClassName =
+                (rowIndex % 2) === 0
+                  ? "row-even"
+                  : "row-odd";
+              let highlightedClassName =
+                (rowIndex === this.highlightedRow)
+                  ? "highlighted-row"
+                  : "";
+
               return gridRowData.map((colData, columnIndex) => {
-                return <div key={`${rowIndex}:${columnIndex}`} className={`row${rowIndex} ${evenOddClassName}`}>{colData}</div>
+                return (
+                  <div 
+                    key={`${rowIndex}:${columnIndex}`} 
+                    className={`row${rowIndex} ${evenOddClassName} ${highlightedClassName}`}
+                    onMouseOver={this.highlightRow}
+                    onMouseOut={this.unhighlightRow}>
+                      {colData}
+                  </div>
+                );
               })
             }
           )
@@ -301,7 +336,9 @@ export const createGridData = (columnSizes, data, hasHeader = true) => {
   return {
     hasHeader: hasHeader,
     cols: columnSizes.map(size => gridColumnSize(size)),
-    rows: data
+    rows: data,
+    highlightedRow: -1,
+    selectedRow: -1
   }
 };
 

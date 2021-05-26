@@ -144,6 +144,10 @@
     background-color: #dddddd;
   }
 
+  > .highlighted-row {
+    background-color: lightblue;
+  }
+
   &.has-header .row0 {
     border-left: solid 1px #000000;
     background-color: #cccccc;
