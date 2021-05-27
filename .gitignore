@@ -10,6 +10,7 @@
 
 # production
 /build
+/build-old
 
 # misc
 /src/logo.svg
